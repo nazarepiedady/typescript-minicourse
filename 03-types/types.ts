@@ -26,3 +26,7 @@ enum Colors {
   white = '#fff',
   black = '#000'
 }
+
+// any (anything)
+let coisa: any
+coisa = [1]
