@@ -43,3 +43,10 @@ type Bla = string | undefined
 function error(): never {
   throw new Error('error');
 }
+
+// object
+let cart: object
+
+cart = {
+  key: 'fi'
+}
