@@ -6,3 +6,6 @@ function sum(a, b) {
   return a + b;
 }
 
+$sumButton.addEventListener('click', function () {
+  console.log(sum($firstInput.value, $secondInput));
+});
