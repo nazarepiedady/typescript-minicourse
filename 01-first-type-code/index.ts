@@ -1,5 +1,5 @@
-const $firstInput = document.getElementById('first-number');
-const $secondInput = document.getElementById('second-number');
+const $firstInput = document.getElementById('first-number') as HTMLInputElement;
+const $secondInput = document.getElementById('second-number') as HTMLInputElement;
 const $sumButton = document.getElementById('sum-button');
 
 function sum(a, b) {
