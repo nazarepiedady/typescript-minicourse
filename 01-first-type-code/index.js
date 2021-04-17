@@ -1,0 +1,3 @@
+const $firstInput = document.getElementById('first-number');
+const $secondInput = document.getElementById('second-number');
+const $sumButton = document.getElementById('sum-button');
