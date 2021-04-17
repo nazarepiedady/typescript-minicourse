@@ -30,3 +30,8 @@ enum Colors {
 // any (anything)
 let coisa: any
 coisa = [1]
+
+// void (empty)
+function logger(): void {
+  console.log('foo')
+}
