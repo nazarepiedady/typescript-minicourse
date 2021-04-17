@@ -35,3 +35,6 @@ coisa = [1]
 function logger(): void {
   console.log('foo')
 }
+
+// null / undefined
+type Bla = string | undefined
