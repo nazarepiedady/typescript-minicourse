@@ -7,5 +7,5 @@ function sum(a, b) {
 }
 
 $sumButton.addEventListener('click', function () {
-  console.log(sum($firstInput.value, $secondInput));
+  console.log(sum($firstInput.value, $secondInput.value));
 });
