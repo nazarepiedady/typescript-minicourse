@@ -16,3 +16,7 @@ items = ["foo", "bar"]
 
 let values: Array<number>
 values = [1, 2, 3]
+
+// tuple
+let title: [number, string, string]
+title = [1, 'foo', 'bar']
