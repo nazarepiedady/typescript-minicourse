@@ -9,5 +9,8 @@ function logInfo(uid: Uid, user: string) {
   console.log(`An user with ${uid} has a name as ${user}.`);
 }
 
+// predefine type alias with values
+type Platform = 'Windows' | 'Linux' | 'Mac OS'
+
 logDetails(123, 'sapato');
 logDetails('123', 'sapato');
