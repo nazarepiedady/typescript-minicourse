@@ -50,3 +50,6 @@ let cart: object
 cart = {
   key: 'fi'
 }
+
+// type inference
+let msg = 'defined message'
