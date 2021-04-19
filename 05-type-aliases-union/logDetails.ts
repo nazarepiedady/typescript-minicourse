@@ -1,4 +1,4 @@
-function logDetails(uid: number, item: string) {
+function logDetails(uid: number | string, item: string) {
   console.log(`A product with ${uid} has a title as ${item}.`);
 }
 
